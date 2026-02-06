@@ -1,0 +1,80 @@
+@use '@/styles/vars/colors.scss' as *;
+
+@mixin flex {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@mixin flex-column {
+  @include flex;
+  flex-direction: column;
+}
+
+@mixin head($size) {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: $size;
+  line-height: 1.25;
+
+  & > :deep(span) {
+    background: -webkit-linear-gradient(0, $neutral-300, $primary-500);
+    background-clip: text;
+    font-weight: 300;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & > span {
+    background: -webkit-linear-gradient(0, $neutral-300, $primary-500);
+    background-clip: text;
+    font-weight: 300;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@mixin head-24 {
+  @include head(24px);
+}
+
+@mixin head-48 {
+  @include head(48px);
+}
+
+@mixin head-72 {
+  @include head(72px);
+}
+
+@mixin head-96 {
+  @include head(96px);
+}
+
+@mixin text($size) {
+  font-size: $size;
+  line-height: 1.5;
+}
+
+@mixin text-16 {
+  @include text(16px);
+}
+
+@mixin text-20 {
+  @include text(20px);
+}
+
+@mixin text-24 {
+  @include text(24px);
+}
+
+@mixin text-28 {
+  @include text(28px);
+}
+
+@mixin text-up {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
