@@ -30,7 +30,7 @@ defineProps<{ gsap: GSAP }>();
 
           <span class="Text">
             "Programming for fun" is usually not the answer they expect, but I
-            would lie if I would tell you it's otherwise.
+            would lie if I would tell you it's not.
           </span>
 
           <span class="Text">

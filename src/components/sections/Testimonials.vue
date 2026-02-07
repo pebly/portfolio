@@ -48,7 +48,7 @@ const TESTIMONIALS = [
 
         <span class="Text">
           My journey has been about constant growth, and that's only been
-          possible because of the incredible people I've worked with people who
+          possible because of the incredible people I've worked with. They
           challenged me, taught me, and inspired me to keep pushing beyond what
           I thought I could do.
         </span>

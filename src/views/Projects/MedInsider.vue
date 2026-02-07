@@ -45,7 +45,7 @@ defineProps<{ gsap: GSAP }>();
       <div class="View layout-2">
         <div class="Flex">
           <span class="Text">
-            In spring 2023, a friend from the Nexyo days asked for FE help on a
+            In spring 2023, a friend from the Nexyo asked for frontend help on a
             new client project. We took it from zero to launch in 1&ndash;2
             months. That became AiGrile, and in less than a year it became the
             best MCQ grid platform in Romania.
